@@ -15,4 +15,5 @@ func main() {
 	reader.ReadString('\n')
 	fmt.Print("Goodbye!")
 	time.Sleep(3 * time.Second)
+
 }

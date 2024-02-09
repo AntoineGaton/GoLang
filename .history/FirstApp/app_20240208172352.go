@@ -4,7 +4,6 @@ import (
 	"bufio"
 	"fmt"
 	"os"
-	"time"
 
 )// This is the import section. It tells Go that we want to use the fmt package to print to the console.
 
@@ -15,4 +14,5 @@ func main() {
 	reader.ReadString('\n')
 	fmt.Print("Goodbye!")
 	time.Sleep(3 * time.Second)
+
 }
